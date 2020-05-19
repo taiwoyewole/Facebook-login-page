@@ -1,0 +1,91 @@
+* { box-sizing: border-box;
+}
+body {
+		font-size: 14px;
+		font-family: Verdana, Helvetica, san-serif;
+		color:blue;
+		text-align: center;
+		margin: 0;
+	}
+h1 {
+		font-size: 126px;
+		line-height: 100px;
+		background-color: navy;
+		height: 100px;
+		padding: auto;
+		margin-left: auto;
+		margin-right: auto;
+		color: white;
+		text-align: center;	
+		margin: 0;
+	}
+form {
+		margin-left: auto;
+		margin-right: auto;
+		width: 30%;
+		text-align: center;
+	}
+	.inputs-container {border-radius: 4px; border: 1px solid gray; margin-top: 30px;
+	}
+input {
+		display: block;
+		padding: 10px;
+		max-width: 100%;
+		width: 100%;
+		box-sizing: border-box;
+		outline: none;
+		border: none;		
+	}
+	input:first-child{border-bottom: 1px solid gray}
+button {
+		border-style: solid;
+		border-color: blue;
+		border-radius: 5px;
+		background-color: blue;
+		width: 100%;
+		padding:10px 20px;
+		color: white;
+	}
+a {
+		text-decoration: none; 
+		display: block;
+		text-align: center;
+	}
+.lower {
+		display: block;
+		margin: auto;
+		margin-top: 150px;
+		text-align: center;
+		width: 30%;
+	}
+.line {
+		position: relative;
+    height: 1px;
+    background-color: gray;
+    /* margin: 10px; */
+    text-align: center;
+    width: 100%;
+    margin-bottom: 30px;
+
+	}
+.line:after {
+		    right: 0;
+    content: 'OR';
+    width: 50px;
+    position: absolute;
+    top: -10px;
+    left: 0;
+    margin: auto;
+    background: white;
+	}
+.create {
+    display: inline-block;
+    border-style: solid;
+    border-color: lightblue;
+    border-radius: 5px;
+    background-color: lightblue;
+    padding: 8px 50px 8px 50px;
+    width: 100%;
+    /* text-align: center; */
+    position: relative;
+}
